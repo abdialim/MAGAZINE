@@ -1,0 +1,650 @@
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .col-2 {
+    width: 16.66%; /* 2/12 * 100 */
+    float: left;
+    padding: 0 15px;
+  }
+  .col-3{
+    width: 25%;
+    padding: 0 15px;
+  }
+
+  .col-4 {
+    width: 33.33%; /* 4/12 * 100 */
+    float: left;
+    padding: 0 15px;
+  }
+
+  .col-6 {
+    width: 50%; /* 6/12 * 100 */
+    float: left;
+    padding: 0 15px;
+  }
+
+  .col-12 {
+    width: 100%; /* 12/12 * 100 */
+    float: left;
+    padding: 0 15px;
+  }
+  .container{
+    width: 100%;
+    height: 200vh;
+  }
+  h3{
+    display: inline-flex;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  h1{
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+  }
+  .header-container{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+  }
+
+  .container-title {
+    display: flex;
+    justify-content: space-between; /* Разделяет элементы на левую и правую части */
+    align-items: center; /* Выравнивает по вертикали */
+  }
+
+  .container-title1 {
+    display: flex; /* Выравнивание текста справа */
+    gap: 10px; /* Расстояние между элементами */
+    color: white; 
+
+    /* align-items: center;  */
+  }
+
+  .menu-left{
+    color: white;
+  }
+  .img1{
+    width: 558px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 70px;
+  gap: 0px;
+  opacity: 0px;
+
+  }
+
+  .banner-h1{
+  /* Where Trend Meets Comfort */
+
+  width: 680px;
+  /* height: 269px; */
+  margin-left: -180px;
+  top: 358px;
+
+  font-family: 'Gotham Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: -96px;
+  /* line-height: 100px; */
+  /* or 104% */
+  display: flex;
+  align-items: center;
+  /* text-transform: uppercase; */
+
+  color: #716e6e;
+
+
+  } 
+  .banner-h1-title{
+    color: black;
+    margin-left: -300px;
+    width: 700px;
+
+  }
+  .h1-banner{
+    color: black;
+    margin-left: -400px;
+    font-size: 96px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    width: 790px;
+  margin-top: -80px; 
+
+
+  }
+  .banner-title{
+    width: 20%;
+  height: 269px;
+  top: 358px;
+  left: 825px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gotham Pro;
+  font-size: 45px;
+  line-height: 100px;
+  position: absolute;
+  }
+
+  .banner-img{
+    margin-left: 420px;
+    margin-top: -900px;
+  }
+
+  .banner-img1{
+    margin-left: -70px;
+    margin-top: -90px;
+  }
+
+  p{
+    width: 270px;
+  height: 31px;
+  margin-top: -90px;
+  margin-left: 220px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gotham Pro;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 100px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:  #787878;
+  ;
+
+  }
+  .banner-arrow{
+    margin-left: 358px;
+    position: absolute;
+    margin-top: -132px;
+  }
+
+
+
+  .body-img1{
+    width: 415px;
+    height: 424px;
+    margin-top: 180px;
+    margin-left: 103px;
+  }
+
+  .body-img2{
+    width: 415px;
+    height: 424px;
+    margin-top: 100px;
+    margin-left: 393px;
+  }
+
+  .body-title{
+  color: black;
+  width: 648px;
+  height: 50px;
+  top: 16px;
+  left: 725px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 196px;
+  /* margin-left: -30px; */
+  font-family: Gotham Pro;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  }
+  h2{
+    width: 759px;
+  height: 50px;
+  margin-top: 49px;
+  margin-left: 30px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 200;
+  line-height: 50px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  }
+  .alim-body{
+    width: 100%;
+  }
+  /* .categories-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .category {
+    position: relative;
+  }
+
+  .category h2 {
+    margin: 0;
+    transition: color 0.3s;
+  }
+
+  .category img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+
+  .category:hover img {
+    opacity: 0.5; 
+    transform: scale(1.05); 
+  }
+
+  .category:hover h2 {
+    color: #ff6600; 
+  } */
+
+  .ALIM{
+    color: black;
+    width: 695px;
+  height: 50px;
+  top: 2258px;
+  margin-left: 625px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gotham Pro;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  }
+  .block-container{
+    display: inline-flex;
+    /* display: inline-block; */
+  }
+  .block-container-img{
+    width: 450px;
+    margin-left: 50px;
+    margin-top: 106px;
+
+  }
+
+
+    .alimm-item {
+      display: flex; /* Flexbox для выравнивания */
+      justify-content: space-between;
+      margin-left: 50px;
+      margin-top: -15px; 
+      color: black;
+      width: 90%; 
+    }
+
+    .new-collection-container{
+      margin-top: 195px;
+    }
+
+    .new-collection-title{
+      color: black;
+      width: 931px;
+      height: 100px;
+      top: 3285px;
+    margin-left: 625px;
+      gap: 0px;
+      opacity: 0px;
+      font-family: Gotham Pro;
+      font-size: 96px;
+      font-weight: 400;
+      line-height: 50px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+          
+    }
+
+    .new-collection-span{
+      width: 175px;
+  height: 50px;
+  top: 3385px;
+  margin-left: 625px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Manrope;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+    }
+
+    .new-collection-img{
+      width: 600px;
+      height: 600px;
+      margin-top: -167px;
+    }
+    .new-collection-img1{
+      width: 500px;
+      margin-left: 20px;
+      
+    }
+    .new-collection-text{
+      color: black;
+      width: 108px;
+  height: 30px;
+  margin-top: -260px;
+  margin-left: 620px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gotham Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+    }
+    .new-collection-img2{
+      margin-left: 725px;
+      margin-top: -254px;
+      position: absolute;
+    }
+    .new-collection-text-img{
+      display: flex;
+    }
+
+    .new-collection-text1{
+      width: 270px;
+  height: 275px;
+  color: #6d6d6d;
+
+  margin-top: -460px;
+  margin-left: 1138px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gotham Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+    }
+
+    .about-us-container{
+      display: flex;
+      align-items: flex-end ;
+    }
+
+    .about-us-img{
+      margin-top:380px;
+    }
+    .about-us-title{
+      color: black;
+  /* About us */
+
+  position: absolute;
+  width: 525px;
+  height: 51px;
+  left: 700px;
+  top: 3640px;
+
+  font-family: 'Gotham Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 50px;
+  /* or 52% */
+  text-transform: uppercase;
+
+  color: #000000;
+
+
+    }
+
+    .about-us-text{
+      color: black;
+      width: 710px;
+      margin-left: 730px;
+      margin-top: -579px;
+    }
+
+    .about-us-text1{
+      width: 716px;
+  height: 168px;
+  margin-top: 5%;
+  margin-left: 726px;
+  gap: 0px;
+  opacity: 0px;
+  color: #6d6d6d;
+  font-family: Gotham Pro;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 23.93px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+    }
+
+    .about-us-text2{
+      width: 716px;
+  height: 168px;
+  color: #6d6d6d;
+
+  margin-top: 1%;
+  margin-left: 726px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gotham Pro;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 23.93px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+    }
+
+    .about-us-text3{
+      width: 716px;
+  height: 168px;
+  margin-top: -40px;
+  margin-left: 726px;
+  color: #6d6d6d;
+
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gotham Pro;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 23.93px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+    }
+
+    .about-us-text4{
+      width: 128px;
+  height: 30px;
+  top: 5002px;
+  margin-left: 1353px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gotham Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+    }
+
+    .about-us-img1{
+      margin-left: 1373px;
+      margin-top: -22px;
+      position: absolute;
+    }
+
+    .footer-container{
+      width: 100%;
+      height: 614px;
+      margin-top: 180px;
+      background-color: black;
+    }
+
+    .footer-title{
+      color: white;
+      margin-left: 242px;
+      margin-top: 48px;
+      
+    }
+
+    .footer-title-1{
+      color: white;
+      margin-left: 242px;
+      margin-top: 37px;
+      
+    }
+    .footer-title-2{
+      color: white;
+      margin-left: 242px;
+      margin-top: 37px;
+      
+    }
+    .footer-title-3{
+      color: white;
+      margin-left: 242px;
+      margin-top: 37px;
+      
+    }
+    .footer-title-4{
+      color: white;
+      margin-left: 242px;
+      margin-top: 37px;
+      
+    }
+    .footer-title-5{
+      color: white;
+      margin-left: 242px;
+      margin-top: 37px;
+      
+    }
+
+
+    .use-cases-container {
+      text-align: center; /* Центрирование текста */
+      padding: 50px; 
+      color: white;
+      margin-top: -450px;
+      height: 0vh;
+    }
+    
+    .footer-title-6{
+       color: white;
+       margin-left: 652px;
+       margin-top: 15px;
+    }
+    
+    .use-cases-container ul {
+      list-style: none; /* Убрать маркеры списка */
+      padding: 0;
+    }
+    
+    .use-cases-container p{
+      margin: 40px 0; /* Отступ между пунктами */
+      margin-left: 550px;
+      color: white;
+      margin-top: 25px;
+    }
+
+    .resurs-container  {
+        display: flex;
+        flex-direction: column-reverse; /* Разворачиваем порядок элементов */
+        text-align: center; /* Центрируем текст по горизонтали */
+      margin-left: 700px;
+      
+    }
+
+    
+    p{
+    color: white;
+    }
+
+
+    .company-container{
+      color: white;
+      display: flex;
+        flex-direction: column-reverse; /* Разворачиваем порядок элементов */
+        text-align: center;
+      margin-left: 1000px;
+
+    }
+
+    .line{
+      margin-left: 160px;
+      margin-top: 458px;
+    }
+
+
+    .footer-title111{
+      margin-right: 1050px;
+      margin-top: 27px;
+    }
+
+  .input-button {
+  position: relative; /* Для позиционирования кнопки внутри контейнера */
+  margin-left: 650px; /* Общий отступ слева для всей группы */
+  margin-top: -29px; /* Отступ сверху */
+}
+
+.input-button input {
+  width: 352px;
+  height: 50px;
+  padding-right: 60px; /* Отступ справа для кнопки */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Учитывает padding в ширине */
+  font-size: 16px;
+  box-shadow: 0px 8px 24px -4px #FFFFFF26;
+
+box-shadow: 0px 6px 12px -6px #FFFFFF40;
+
+}
+
+.input-button button {
+  position: absolute;
+  transform: translateY(-50%); /* Корректируем центрирование */
+  height: 43px; /* Высота кнопки */
+  padding: 0 10px; /* Внутренний отступ кнопки */
+  background-color: #010101; /* Цвет фона кнопки */
+  color: #fff; /* Цвет текста кнопки */
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: -88px;
+  width: 86px;
+  margin-top: 25px;
+  box-shadow: 0px 8px 24px -4px #FFFFFF26;
+
+box-shadow: 0px 6px 12px -6px #FFFFFF40;
+
+}
+
+.footer-title11{
+  margin-left: 400px;
+  margin-top: -50px;
+}
+
+
+    
